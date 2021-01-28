@@ -1,7 +1,7 @@
 // Получаю выбранную строку:
 drop.onchange = function () {
-    inp.value = this.value;
-    document.getElementById("inp").style.borderColor = "";
+    input.value = this.value;
+    document.getElementById('input').style.borderColor = '';
 };
 
 // По нажатию отправляю содержание строки:
@@ -11,10 +11,10 @@ button.onclick = function () {
 
     elems.forEach(element => {
         if (element.value === drop.value) {
-            if (inp.value !== '') {
-                element.innerHTML = inp.value;
+            if (input.value !== '') {
+                element.innerHTML = input.value;
             } else {
-                document.getElementById("inp").style.borderColor = "red";
+                document.getElementById('input').style.borderColor = 'red';
             }
         }
     });
