@@ -1,0 +1,24 @@
+div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+select {
+    font-size: 30px;
+    padding: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    flex: 1 100%;
+    max-width: 600px;
+}
+input {
+    font-size: 30px;
+}
+.placeH {
+    flex: 5 1 100%;
+    max-width: 390px;
+}
+.butt {
+    max-width: 200px;
+    flex: 1 5 100%;
+}
